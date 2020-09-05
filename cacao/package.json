@@ -1,0 +1,21 @@
+{
+  "name": "cacao-supply-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "node $NODE_DEBUG_OPTION ./node_modules/.bin/truffle test",
+    "deploy": "truffle migrate --reset --network $NETWORK"
+  },
+  "keywords": [],
+  "author": "Lukas Elsner <mail@lukaselsner.de> (https://ipfs.infura.io/ipfs/???????/)",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.5.3",
+    "ganache-cli": "^6.4.5",
+    "truffle": "5.0.27",
+    "truffle-assertions": "^0.9.1",
+    "truffle-hdwallet-provider": "^1.0.14"
+  }
+}
